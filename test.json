@@ -4,14 +4,14 @@
   "parameters": {
     "location": {
       "type": "string",
-	  "defaultValue": "northeurope",
+      "defaultValue": "northeurope",
       "metadata": {
         "description": "location"
       }
     },
     "adminUsername": {
       "type": "string",
-	  "defaultValue": "admin123",
+      "defaultValue": "admin123",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
@@ -25,7 +25,7 @@
     },
     "FortiGateNamePrefix": {
       "type": "string",
-	  "defaultValue": "Forti123",
+      "defaultValue": "Forti123",
       "metadata": {
         "description": "Name for FortiGate virtual appliances (A & B will be appended to the end of each respectively)."
       }
